@@ -16,3 +16,13 @@ tcp4, 8.8.8.8, 80
 tcp4, www.amayas.ca, 80
 tcp4, www.amayas.ca, 443
 ```
+Output:
+```
+tcp4 www.amayas.ca:443 closed
+tcp4 www.google.com:443 open
+tcp4 localhost:21 closed
+udp4 8.8.8.8:53 open
+udp4 8.8.8.8:56 open
+tcp4 8.8.8.8:80 closed
+tcp4 www.amayas.ca:80 closed
+```

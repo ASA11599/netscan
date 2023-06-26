@@ -2,6 +2,10 @@
 
 Scan network ports
 
+## Status
+
+[![Go](https://github.com/ASA11599/netscan/actions/workflows/go.yml/badge.svg)](https://github.com/ASA11599/netscan/actions/workflows/go.yml)
+
 ## Usage
 
 Provide a CSV file as argument with the networks, hosts and ports that need to be scanned.
